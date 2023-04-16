@@ -9,6 +9,24 @@ body {
     margin: 0 auto;
 }
 
+.divider {
+    background: #E08631;
+    width: 42px;
+    height: 8px;
+    margin: 0 auto 32px;
+}
+
+.book__btn {
+    display: inline-block;
+    padding: 11px 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #52503B;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
 .header {
     background: #52503B;
     position: absolute;
@@ -33,16 +51,6 @@ body {
     font-size: 14px;
     line-height: 1.43;
     color: #FFFFFF;
-}
-
-.book__btn {
-    padding: 11px 18px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    color: #52503B;
-    background: #FFFFFF;
-    border-radius: 6px;
 }
 
 .banner {
@@ -80,4 +88,30 @@ body {
     height: 60px;
     width: 60px;
     background: url('../img/button.png') center no-repeat;
+}
+
+.intro {
+    padding: 100px 0 89px;
+    background: #FAF8F0;
+}
+
+.intro__body {
+    max-width: 768px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.intro__text {
+    max-width: 360px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #333333;
+}
+
+.book__btn_dark {
+    background: #52503B;
+    color: #FFFFFF;
+    margin-top: 41px;
 }

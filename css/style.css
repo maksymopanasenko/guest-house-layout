@@ -1,1 +1,83 @@
-@import 'reset.css';
+@import url('reset.css');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #52503B;
+    position: absolute;
+    width: 100%;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__list_link {
+    display: inline-block;
+    padding: 20px 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #FFFFFF;
+}
+
+.book__btn {
+    padding: 11px 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #52503B;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.banner {
+    height: 800px;
+    padding: 248px 0 96px;
+    background: url('../img/house.png') center center/cover no-repeat;
+    text-align: center;
+}
+
+.banner__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.1;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+
+.logo {
+    display: inline-block;
+    margin-bottom: 34px;
+}
+
+.banner__location {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 112px;
+}
+
+.banner__btn {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    background: url('../img/button.png') center no-repeat;
+}

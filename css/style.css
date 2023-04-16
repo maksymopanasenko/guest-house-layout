@@ -115,3 +115,21 @@ body {
     color: #FFFFFF;
     margin-top: 41px;
 }
+
+.motto {
+    padding: 100px 0 0;
+}
+
+.motto__title {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1;
+    text-align: center;
+    color: #52503B;
+    margin-bottom: 140px;
+}
+
+.motto__img {
+    display: flex;
+    width: 100%;
+}

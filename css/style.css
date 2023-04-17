@@ -307,3 +307,36 @@ body {
     width: 60px;
 }
 
+.couples {
+    padding-bottom: 100px;
+}
+
+.couples__img {
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.couples__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.couples__title {
+    font-size: 32px;
+    line-height: 1.12;
+    color: #52503B;
+    margin-bottom: 12px;
+}
+
+.couples__amenities {
+    display: grid;
+    grid-template-columns: repeat(2, 260px);
+    grid-auto-rows: minmax(67px auto);
+    gap: 32px;
+}
+
+.couple__amenties_item {
+    display: flex;
+    gap: 16px;
+}

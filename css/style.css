@@ -27,6 +27,20 @@ body {
     border-radius: 6px;
 }
 
+.section__title {
+    max-width: 533px;
+    font-size: 32px;
+    line-height: 1.12;
+    color: #52503B;
+    text-align: center;
+    margin: 0 auto 12px;
+}
+
+.section__title_left {
+    text-align: left;
+    margin-left: 0;
+}
+
 .header {
     background: #52503B;
     position: absolute;
@@ -141,7 +155,6 @@ body {
 }
 
 .arrangements__title {
-    font-weight: 400;
     font-size: 32px;
     line-height: 1.12;
     color: #52503B;
@@ -301,10 +314,35 @@ body {
 }
 
 .reviews__btn {
+    position: relative;
     border: 2px solid #52503B;
     border-radius: 30px;
     height: 60px;
-    width: 60px;
+    width: 60px;   
+    transition: .8s; 
+}
+
+.reviews__btn::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+    background: url('../icons/arrow.png') center center/cover no-repeat;
+}
+
+.reviews__btn:hover {
+    background-color: #52503B; 
+}
+
+.reviews__btn:hover::after {
+    background: url('../icons/arrow-light.png') center center/cover no-repeat;
+}
+
+.reviews__btn_left {
+    transform: rotate(0.5turn)
 }
 
 .couples {
@@ -320,6 +358,7 @@ body {
 .couples__body {
     display: flex;
     justify-content: space-between;
+    padding: 0 16px;
 }
 
 .couples__title {

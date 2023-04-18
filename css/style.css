@@ -340,3 +340,132 @@ body {
     display: flex;
     gap: 16px;
 }
+
+.booking {
+    background: #FAF8F0;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.booking__title {
+    max-width: 533px;
+    font-size: 32px;
+    line-height: 1.12;
+    color: #52503B;
+    margin: 0 auto 12px;
+}
+
+.booking__btn {
+    border: 4px solid #52503B;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #52503B;
+    padding: 16px 26px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: .5s ease;
+}
+
+.booking__btn:hover {
+    background: #52503B;
+    color: #FFFFFF;
+}
+
+/* footer */
+
+.footer {
+    background: #52503B;
+    padding: 100px 0;
+}
+
+.footer__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    gap: 16px;
+    margin-bottom: 48px;
+}
+
+.footer__box-title {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer__list-item {
+    margin-top: 12px;
+}
+
+.footer__box-title_mb10 {
+    margin-bottom: 10px;
+}
+
+.footer__list-link {
+    font-size: 14px;
+    line-height: 1.43;
+    color: #FFFFFF;
+}
+
+.footer__social-link {
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer__social-link:first-child {
+    padding-left: 0;
+}
+
+.footer__text {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.footer__form {
+    display: flex;
+    align-items: center;
+}
+
+.footer__input {
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    width: 100%;
+    padding: 16px 30px;
+}
+
+.footer__input::placeholder {
+    color: #52503B;
+}
+
+.footer__btn {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #FFFFFF;
+    background: #52503B;
+    border-radius: 10px;
+    padding: 5px;
+    transform: translateX(calc(-100% - 7px));
+}
+
+.footer__contact {
+    text-align: center;
+}
+
+.logo_footer {
+    margin: 0;
+}
+
+.footer__copyright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
